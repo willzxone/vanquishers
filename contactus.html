@@ -37,23 +37,23 @@
     </header>
 
     <main>
-        <div class="container">
+        <div class="container contact-container">
             <section class="contact mb-1">
-                <form action="get" class="contact__form">
+                <form class="contact__form" name="contact" method="POST" data-netlify="true">
                     <div class="contact__form_left">
                         <h1 class="h1 main__heading">
                             <span class="main__heading_span">Contact</span><br> Us
                         </h1>
                     </div>
                     <div class="contact__form_right">
-                        <input type="text" placeholder="Name">
-                        <input type="email" placeholder="Email">
-                        <input type="tel" placeholder="Contact Number">
+                        <input type="text" name="name" placeholder="Name">
+                        <input type="email" name="email" placeholder="Email">
+                        <input type="tel" name="phone" placeholder="Contact Number">
 
                         <input type="text" placeholder="Message">
                         <div class="contact__form_right-btn">
-                            <button class="btn-secondary">Cancel</button>
-                            <button class="btn-secondary">Submit</button>
+                            <button type="reset" class="btn-secondary">Cancel</button>
+                            <button type="submit" class="btn-secondary">Submit</button>
                         </div>
                         
                     </div>
