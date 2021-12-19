@@ -39,7 +39,7 @@
     <main>
         <div class="container contact-container">
             <section class="contact mb-1">
-                <form class="contact__form" name="contact" method="POST" data-netlify="true">
+                <form class="contact__form" name="contact" action="/pages/success" method="POST" data-netlify="true">
                     <div class="contact__form_left">
                         <h1 class="h1 main__heading">
                             <span class="main__heading_span">Contact</span><br> Us
@@ -50,7 +50,7 @@
                         <input type="email" name="email" placeholder="Email">
                         <input type="tel" name="phone" placeholder="Contact Number">
 
-                        <input type="text" placeholder="Message">
+                        <input type="text" name="message" placeholder="Message">
                         <div class="contact__form_right-btn">
                             <button type="reset" class="btn-secondary">Cancel</button>
                             <button type="submit" class="btn-secondary">Submit</button>
