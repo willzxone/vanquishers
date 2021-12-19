@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/favicon_io/site.webmanifest">
+    <script src="https://kit.fontawesome.com/029ad0ef25.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="sass/main.css">
+    <title>Cart</title>
+</head>
+<body>
+    <header class="header cat__header">
+        <section class="header__upper">
+            <h2 class="header__upper_heading h2" ><a href="index">Welcome to Vanquishers</a></h2>
+            <div class="header__upper_links">
+                <a href="contactus" class="btn-primary">Contact Us</a>
+
+            </div>
+        </section>
+        <section class="header__lower">
+            <nav class="header__lower_links">
+                <ul>
+                    <li><a href="index">Home</a></li>
+                    <li><a href="categories#guns">Guns</a></li>
+                    <li><a href="categories#amunation">Amunation</a></li>
+                    <li><a href="categories#gernades">Gernades</a></li>
+                </ul>
+            </nav>
+    </section>
+    </header>
+    <main class="cart__main mb-1">
+        <section >
+            <div class="container">
+                <h1 class="h1 main__heading categories__heading" id="guns">
+                    Ca<span class="main__heading_span">rt</span>
+                </h1>
+                <table class="cart__main_table">
+                    <thead>
+                      <th class="product__name">Product name</th>
+                      <th class="product__name">Price</th>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td class="product__name_dis">Glock 17 Gen 4</td>
+                        <td class="product__price_dis">1200$</td>
+                      </tr>
+                      <tr>
+                        <td class="product__name_dis">AK-47</td>
+                        <td class="product__price_dis">2000$</td>
+                      </tr>
+                      <tr>
+                        <td class="product__name_dis">Stun Gernade</td>
+                        <td class="product__price_dis">250$</td>
+                      </tr>
+                      <tr>
+                        <td class="product__name_dis">Grand Total</td>
+                        <td class="product__price_dis">3450$</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <div class="payment">
+                    <input type="radio" id="cop" name="fav">
+                    <label for="cop" class="">Cash on delivery</label>
+                    <br>
+                    <input type="radio" id="cc" name="fav">
+                    <label for="cc" class="">Pay by Credit Card</label>
+                    
+                    
+                  </div>
+                  <button class="btn-secondary cart__main_table--btn">Pay</button>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <section class="footer__upper mb-2">
+               <nav class="footer__upper_nav">
+                    <ul >
+                        <h3 class="h3 footer__upper_heading">Corporation</h3>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+               </nav>
+               <section>
+                   <form action="#" class="footer__upper_form">
+                        <h3 class="h3 footer__upper_heading">Sign up for newsletter</h3>
+                        <div>
+                            <input type="text" >
+                            
+                            <button type="submit" class="btn-secondary"><img src="https://img.icons8.com/ios/100/000000/mail.png"/>Submit</button>
+                        </div>
+                   </form>
+                   <div class="footer__upper_form-follow">
+                        <h3 class="h3 footer__upper_heading">Follow Us</h3>
+                        <a href="https://www.facebook.com/willzxonealt/" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+                        <a href="https://www.instagram.com/waleedasif_willz/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+                    </div>
+               </section>
+            </section>
+            <section class="footer__middle mb-2">
+                <figure class="footer__middle_logo">
+                    <img src="/img/logo.png" class="header__middle_logo--png" alt="vanquisher logo">
+                </figure>
+                <p class="lead">
+                    info@vanquishers-inc.com
+                </p>
+            </section>
+        </div>
+        <section class="footer__lower">
+            <p class="lead">
+                &copy; Vanquishers Inc. All Rights Reserved.
+            </p>
+        </section>
+    </footer>
+</body>
+</html>
